@@ -50,7 +50,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     is_month = False
     month = input(
-        "Please Enter a month filter\n(January, February, March...,June): ").title().strip()
+        "Please Enter a month filter\n(All, January, February, March...,June): ").title().strip()
     while is_month == False:
         if month not in month_list:
             month = input(
